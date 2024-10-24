@@ -1,0 +1,70 @@
+body {
+    background-color: cornflowerblue;
+}
+h1#Heading1 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+    text-decoration: underline;
+    font-size: 60px;
+    font-weight: bolder;
+}
+h1#Heading1:hover {
+    background-color: white;
+    color: black;
+}
+h1#Heading2 {
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+    text-decoration: underline;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Bauhaus 93", cursive;
+}
+.Paragraph {
+    font-family: "Arial Black", cursive;
+}
+#MyDivision {
+    background-color: deepskyblue;
+    padding: 30px;
+    color: darkmagenta;
+}
+#Test {
+    background-color: hotpink;
+    margin: 40px;
+    padding: 40px;
+    display: grid;
+    color: white;
+}
+#Test img {
+    margin: 20px;
+}
+#Main {
+    display: flex;
+}
+#Main img {
+    width: 100px;
+    height: 100px;
+}
+#Ads {
+    background-color: darkmagenta;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+#Account {
+    background-color: deeppink;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+#Payment {
+    background-color: indigo;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+#Ads:hover, #Account:hover, #Payment:hover {
+    background-color: chartreuse;
+}

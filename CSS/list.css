@@ -1,0 +1,14 @@
+body {
+    background-color: cornflowerblue;
+    margin-left: 40px;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+}
+h1:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,11 @@
+img {
+    width: 425px;
+    height: 300px;
+}
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+body{
+    background-color: cornflowerblue;
+}
